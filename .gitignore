@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+.next/ # For Next.js projects
+out/ # For static site generators like Astro or Eleventy
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS generated files
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tailwind CSS specific
+# If you have a custom output CSS file that is generated, add it here
+# For example, if your output CSS is in src/output.css
+# src/output.css
