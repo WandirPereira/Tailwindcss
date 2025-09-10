@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme{
+    --shadow-custom: 3px -5px 30px 10px red
+}
